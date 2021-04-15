@@ -82,7 +82,7 @@ public class P2529 {
         int k = sc.nextInt();
         char[] a = new char[k];
         for (int i = 0; i < k; i++) {
-            a[i] = sc.next().charAt(0);
+            a[i] = sc.next().charAt(0); // a 안에 부등호를 다 넣는다.
         }
 
         int[] small = new int[k+1];
