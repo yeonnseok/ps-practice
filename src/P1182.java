@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class P1182 {
 
     static int answer = 0;
+    private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int s = sc.nextInt();
         int[] a = new int[n];

@@ -6,8 +6,9 @@ public class P9663 {
     static boolean[] check_col = new boolean[15];
     static boolean[] check_dig = new boolean[40];
     static boolean[] check_dig2 = new boolean[40];
+    private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         System.out.println(calc(0));
 

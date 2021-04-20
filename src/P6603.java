@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class P6603 {
     static ArrayList<Integer> lotto = new ArrayList<>();
+    private static Scanner sc = new Scanner(System.in);
+
     static void solve(int[] a, int index, int cnt) {
         if (cnt == 6) {
             for (int num: lotto) {
@@ -20,7 +22,6 @@ public class P6603 {
         solve(a, index+1, cnt);
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         
         while(true) {
             int n = sc.nextInt();

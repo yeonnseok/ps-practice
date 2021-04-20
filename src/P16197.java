@@ -6,9 +6,9 @@ public class P16197 {
     static int m;
     static int[] dx = {0, 0, 1, -1};
     static int[] dy = {1, -1, 0, 0};
+    private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
         n = sc.nextInt();
         m = sc.nextInt();
         a = new char[n][m];
